@@ -59,9 +59,6 @@ architecture Structural of top_level is
   signal ctr_over_under_flow_prevent :std_logic := '0';
   signal ctr_reached_max :std_logic := '0';
   signal ctr_reached_min :std_logic := '0';
-  -- Counter register output signals
-  signal ctr_count_this_cycle_q :std_logic := '0';
-  signal ctr_over_under_flow_prevent_q :std_logic := '0';
   
   -- Internal logic for maximum cars allowed
   signal reached_max_cars_allowed :std_logic := '0';
@@ -74,22 +71,13 @@ architecture Structural of top_level is
   ctr_up <= add_this_cycle;
   -- Prevents over/underflow by just not counting when it wants to count too high or low
   ctr_over_under_flow_prevent <= (add_this_cycle AND (ctr_reached_max OR reached_max_cars_allowed)) OR (sub_this_cycle AND ctr_reached_min);
+  
   -- MAXIMUM CARS ALLOWED LOGIC -----------------------------------------------
   reached_max_cars_allowed <= '1' when unsigned(counter_value) = unsigned(MAX_CARS) else
                               '0';
   oMaxCars <= reached_max_cars_allowed;
 
   oCount <= counter_value;
-  
-  -- COUNTER REGISTERS FOR RST/DIR LOGIC --------------------------------------
-  PROCESS (iClk)
-   BEGIN
-     IF iClk'EVENT AND iClk = '0' THEN
-		  ctr_count_this_cycle_q <= ctr_count_this_cycle;
-		  ctr_over_under_flow_prevent_q <= ctr_over_under_flow_prevent;
-	  END IF;
-   END PROCESS;
-  -- END Counter registered values
 
   -- COUNTER AND STATE MACHINE ------------------------------------------------
   counter: univ_bin_counter 
