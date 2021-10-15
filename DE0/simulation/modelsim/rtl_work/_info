@@ -1,0 +1,188 @@
+m255
+K3
+13
+cModel Technology
+Z0 dS:\Courses\EE365\P3\code\simulation\modelsim
+Ebtn_debounce_toggle
+Z1 w1634069102
+Z2 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z4 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z5 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z6 dS:\Courses\EE365\P3\code\simulation\modelsim
+Z7 8S:/Courses/EE365/P3/code/debounce.vhd
+Z8 FS:/Courses/EE365/P3/code/debounce.vhd
+l0
+L32
+V7?XX^mG`mo>Tm10P5g`O^1
+Z9 OV;C;10.1d;51
+31
+Z10 !s108 1634319950.618000
+Z11 !s90 -reportprogress|300|-93|-work|work|S:/Courses/EE365/P3/code/debounce.vhd|
+Z12 !s107 S:/Courses/EE365/P3/code/debounce.vhd|
+Z13 o-93 -work work -O0
+Z14 tExplicit 1
+!s100 ^lEN`GDF;RR:KTFlBaZA01
+!i10b 1
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 19 btn_debounce_toggle 0 22 7?XX^mG`mo>Tm10P5g`O^1
+l51
+L41
+V?96l@J62G5;n9^[Q6EGa93
+R9
+31
+R10
+R11
+R12
+R13
+R14
+!s100 KZBS?^[KXjC0c3F8OiG971
+!i10b 1
+Eencoder
+Z15 w1634142196
+R4
+R5
+R6
+Z16 8S:/Courses/EE365/P3/code/encoder.vhd
+Z17 FS:/Courses/EE365/P3/code/encoder.vhd
+l0
+L4
+VI]=_]dJ>8^1JZJ2jI46K]0
+R9
+31
+Z18 !s108 1634319950.796000
+Z19 !s90 -reportprogress|300|-93|-work|work|S:/Courses/EE365/P3/code/encoder.vhd|
+Z20 !s107 S:/Courses/EE365/P3/code/encoder.vhd|
+R13
+R14
+!s100 oPWnNaL>kRdZY4TeX5M^N2
+!i10b 1
+Astructural
+R4
+R5
+DEx4 work 7 encoder 0 22 I]=_]dJ>8^1JZJ2jI46K]0
+l46
+L14
+V=0Bj0@8?Zc=knPC4hd^A40
+R9
+31
+R18
+R19
+R20
+R13
+R14
+!s100 7Cd39L2^@C<JkMa]nbTNL1
+!i10b 1
+Eencoder_sm
+Z21 w1634070621
+R4
+R5
+R6
+Z22 8S:/Courses/EE365/P3/code/encoder_sm.vhd
+Z23 FS:/Courses/EE365/P3/code/encoder_sm.vhd
+l0
+L21
+Vc9IPnkfl_d=[X]I5HT_F=2
+!s100 >RZadnmJU_h=oB;5V=gWN2
+R9
+31
+!i10b 1
+Z24 !s108 1634319951.471000
+Z25 !s90 -reportprogress|300|-93|-work|work|S:/Courses/EE365/P3/code/encoder_sm.vhd|
+Z26 !s107 S:/Courses/EE365/P3/code/encoder_sm.vhd|
+R13
+R14
+Abehavior
+R4
+R5
+DEx4 work 10 encoder_sm 0 22 c9IPnkfl_d=[X]I5HT_F=2
+l36
+L32
+V<ZjA]>5Y7Tl>_db1B`WG13
+!s100 k;7?iKRAX9fHEjZB[>A?O3
+R9
+31
+!i10b 1
+R24
+R25
+R26
+R13
+R14
+Etop_level
+Z27 w1634259989
+Z28 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R4
+R5
+R6
+Z29 8S:/Courses/EE365/P3/code/top_level.vhd
+Z30 FS:/Courses/EE365/P3/code/top_level.vhd
+l0
+L5
+VWFkzzT2l5WEd1ZmYbZnC03
+R9
+31
+Z31 !s108 1634319950.133000
+Z32 !s90 -reportprogress|300|-93|-work|work|S:/Courses/EE365/P3/code/top_level.vhd|
+Z33 !s107 S:/Courses/EE365/P3/code/top_level.vhd|
+R13
+R14
+!s100 59c64ECVV_1U4Hf^ARRA]3
+!i10b 1
+Astructural
+R28
+R4
+R5
+DEx4 work 9 top_level 0 22 WFkzzT2l5WEd1ZmYbZnC03
+l70
+L22
+VaGF@U<IjOD]`g:;1J2WAl1
+R9
+31
+R31
+R32
+R33
+R13
+R14
+!s100 Vc1FASoSF30nDTL;nPVo_1
+!i10b 1
+Euniv_bin_counter
+Z34 w1634069858
+R28
+R4
+R5
+R6
+Z35 8S:/Courses/EE365/P3/code/univ_bin_counter.vhd
+Z36 FS:/Courses/EE365/P3/code/univ_bin_counter.vhd
+l0
+L9
+VaTVYh>l:MNBX68MX[c:H43
+R9
+31
+Z37 !s108 1634319950.449000
+Z38 !s90 -reportprogress|300|-93|-work|work|S:/Courses/EE365/P3/code/univ_bin_counter.vhd|
+Z39 !s107 S:/Courses/EE365/P3/code/univ_bin_counter.vhd|
+R13
+R14
+!s100 cHQ3L1]c^Ul0iL@TO?@T83
+!i10b 1
+Aarch
+R28
+R4
+R5
+DEx4 work 16 univ_bin_counter 0 22 aTVYh>l:MNBX68MX[c:H43
+l24
+L21
+Ve^L7jlXT<XCCLaR8RATVJ0
+R9
+31
+R37
+R38
+R39
+R13
+R14
+!s100 >WGSH4?fWCGME0P6jj5c63
+!i10b 1

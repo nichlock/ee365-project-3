@@ -1,0 +1,1977 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do encoder_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {S:/Courses/EE365/P3/top_level.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity top_level
+# -- Compiling architecture Structural of top_level
+# vcom -93 -work work {S:/Courses/EE365/P3/univ_bin_counter.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity univ_bin_counter
+# -- Compiling architecture arch of univ_bin_counter
+# vcom -93 -work work {S:/Courses/EE365/P3/debounce.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity btn_debounce_toggle
+# -- Compiling architecture Behavioral of btn_debounce_toggle
+# vcom -93 -work work {S:/Courses/EE365/P3/encoder.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity encoder
+# -- Compiling architecture structural of encoder
+# ** Error: S:/Courses/EE365/P3/encoder.vhd(51): (vcom-1436) Actual expression (prefix expression) of formal "iA" is not globally static.
+# 
+# ** Error: S:/Courses/EE365/P3/encoder.vhd(52): (vcom-1436) Actual expression (prefix expression) of formal "iB" is not globally static.
+# 
+# ** Error: S:/Courses/EE365/P3/encoder.vhd(79): VHDL Compiler exiting
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./encoder_run_msim_rtl_vhdl.do line 11
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 -work work {S:/Courses/EE365/P3/encoder.vhd}"
+cd ../../
+# reading C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+pd
+# invalid command name "pd"
+pwd
+# S:/Courses/EE365/P3
+do t
+# Cannot open macro file: t
+do testbench.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity btn_debounce_toggle
+# -- Compiling architecture Behavioral of btn_debounce_toggle
+# -- Compiling entity encoder
+# -- Compiling architecture structural of encoder
+# ** Error: encoder.vhd(51): (vcom-1436) Actual expression (prefix expression) of formal "iA" is not globally static.
+# 
+# ** Error: encoder.vhd(52): (vcom-1436) Actual expression (prefix expression) of formal "iB" is not globally static.
+# 
+# ** Error: encoder.vhd(79): VHDL Compiler exiting
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./testbench.tcl line 6
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom *.vhd"
+do testbench.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity btn_debounce_toggle
+# -- Compiling architecture Behavioral of btn_debounce_toggle
+# -- Compiling entity encoder
+# -- Compiling architecture structural of encoder
+# ** Error: encoder.vhd(51): (vcom-1436) Actual expression (prefix expression) of formal "iA" is not globally static.
+# 
+# ** Error: encoder.vhd(52): (vcom-1436) Actual expression (prefix expression) of formal "iB" is not globally static.
+# 
+# ** Error: encoder.vhd(79): VHDL Compiler exiting
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./testbench.tcl line 6
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom *.vhd"
+do testbench.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity btn_debounce_toggle
+# -- Compiling architecture Behavioral of btn_debounce_toggle
+# -- Compiling entity encoder
+# -- Compiling architecture structural of encoder
+# ** Error: encoder.vhd(51): (vcom-1436) Actual expression (prefix expression) of formal "iA" is not globally static.
+# 
+# ** Error: encoder.vhd(52): (vcom-1436) Actual expression (prefix expression) of formal "iB" is not globally static.
+# 
+# ** Error: encoder.vhd(79): VHDL Compiler exiting
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./testbench.tcl line 6
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom *.vhd"
+do testbench.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity btn_debounce_toggle
+# -- Compiling architecture Behavioral of btn_debounce_toggle
+# -- Compiling entity encoder
+# -- Compiling architecture structural of encoder
+# -- Compiling entity encoder_sm
+# -- Compiling architecture BEHAVIOR of encoder_sm
+# -- Compiling entity top_level
+# -- Compiling architecture Structural of top_level
+# -- Loading package NUMERIC_STD
+# -- Compiling entity univ_bin_counter
+# -- Compiling architecture arch of univ_bin_counter
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity encoder_tb
+# -- Compiling architecture tb of encoder_tb
+# -- Loading entity top_level
+# ** Warning: [4] encoder_tb.vht(34): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(36): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(48): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(51): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(56): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(57): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(61): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(62): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(66): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(67): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(71): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(72): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(74): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(75): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(80): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(83): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(86): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(87): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(88): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(89): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(90): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(91): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(92): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(93): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(94): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(95): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(97): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(98): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(99): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(100): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(101): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(103): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(104): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(105): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(106): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(107): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(112): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(113): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(114): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(115): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(116): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(122): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(122): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(122): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(122): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(122): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(125): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(125): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(125): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(125): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(125): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# vsim +altera -do for_export.do -l msim_transcript -gui work.encoder_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.encoder_tb(tb)
+# Loading work.top_level(structural)
+# Loading ieee.numeric_std(body)
+# Loading work.univ_bin_counter(arch)
+# Loading work.encoder_sm(behavior)
+# do for_export.do 
+# ** Error: (vish-4014) No objects found matching '/encoder_tb/direction'.
+# Executing ONERROR command at macro ./for_export.do line 8
+# ** Error: (vish-4014) No objects found matching '/encoder_tb/DUT/safe_A'.
+# Executing ONERROR command at macro ./for_export.do line 10
+# ** Error: (vish-4014) No objects found matching '/encoder_tb/DUT/safe_B'.
+# Executing ONERROR command at macro ./for_export.do line 11
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /encoder_tb/DUT/counter
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /encoder_tb/DUT/counter
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf S:/Courses/EE365/P3/for_export.do
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf S:/Courses/EE365/P3/for_export.do
+do testbench.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity btn_debounce_toggle
+# -- Compiling architecture Behavioral of btn_debounce_toggle
+# -- Compiling entity encoder
+# -- Compiling architecture structural of encoder
+# -- Compiling entity encoder_sm
+# -- Compiling architecture BEHAVIOR of encoder_sm
+# -- Compiling entity top_level
+# -- Compiling architecture Structural of top_level
+# -- Loading package NUMERIC_STD
+# -- Compiling entity univ_bin_counter
+# -- Compiling architecture arch of univ_bin_counter
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity encoder_tb
+# -- Compiling architecture tb of encoder_tb
+# -- Loading entity top_level
+# ** Warning: [4] encoder_tb.vht(34): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(36): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(48): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(49): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(52): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(57): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(58): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(62): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(66): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(70): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(72): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(73): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(78): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(81): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(84): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(85): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(86): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(87): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(88): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(89): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(90): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(91): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(92): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(93): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(95): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(96): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(97): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(98): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(99): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(101): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(102): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(103): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(104): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(105): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(110): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(111): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(112): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(113): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(114): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(120): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(120): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(120): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(120): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(120): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(123): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(123): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(123): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(123): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(123): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# vsim +altera -do for_export.do -l msim_transcript -gui work.encoder_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.encoder_tb(tb)
+# Loading work.top_level(structural)
+# Loading ieee.numeric_std(body)
+# Loading work.univ_bin_counter(arch)
+# Loading work.encoder_sm(behavior)
+# do for_export.do 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /encoder_tb/DUT/counter
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /encoder_tb/DUT/counter
+do for_export.do
+do testbench.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity btn_debounce_toggle
+# -- Compiling architecture Behavioral of btn_debounce_toggle
+# -- Compiling entity encoder
+# -- Compiling architecture structural of encoder
+# -- Compiling entity encoder_sm
+# -- Compiling architecture BEHAVIOR of encoder_sm
+# -- Compiling entity top_level
+# -- Compiling architecture Structural of top_level
+# -- Loading package NUMERIC_STD
+# -- Compiling entity univ_bin_counter
+# -- Compiling architecture arch of univ_bin_counter
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity encoder_tb
+# -- Compiling architecture tb of encoder_tb
+# -- Loading entity top_level
+# ** Warning: [4] encoder_tb.vht(34): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(36): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(48): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(49): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(52): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(57): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(58): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(62): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(66): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(70): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(72): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(73): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(78): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(81): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(84): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(85): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(86): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(87): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(88): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(89): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(90): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(91): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(92): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(93): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(95): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(96): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(97): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(98): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(99): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(101): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(102): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(103): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(104): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(105): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(110): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(111): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(112): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(113): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(114): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(120): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(120): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(120): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(120): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(120): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(123): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(123): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(123): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(123): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(123): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# vsim +altera -do for_export.do -l msim_transcript -gui work.encoder_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.encoder_tb(tb)
+# Loading work.top_level(structural)
+# Loading ieee.numeric_std(body)
+# Loading work.univ_bin_counter(arch)
+# Loading work.encoder_sm(behavior)
+# do for_export.do 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /encoder_tb/DUT/counter
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /encoder_tb/DUT/counter
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf S:/Courses/EE365/P3/for_export.do
+do testbench.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity btn_debounce_toggle
+# -- Compiling architecture Behavioral of btn_debounce_toggle
+# -- Compiling entity encoder
+# -- Compiling architecture structural of encoder
+# ** Error: encoder.vhd(17): near ",": expecting ';' or ')'
+# ** Error: encoder_sm.vhd(18): VHDL Compiler exiting
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./testbench.tcl line 6
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom *.vhd"
+do testbench.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity btn_debounce_toggle
+# -- Compiling architecture Behavioral of btn_debounce_toggle
+# -- Compiling entity encoder
+# -- Compiling architecture structural of encoder
+# ** Error: encoder.vhd(17): near ":=": expecting ':'
+# ** Error: encoder_sm.vhd(18): VHDL Compiler exiting
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./testbench.tcl line 6
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom *.vhd"
+do testbench.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity btn_debounce_toggle
+# -- Compiling architecture Behavioral of btn_debounce_toggle
+# -- Compiling entity encoder
+# -- Compiling architecture structural of encoder
+# ** Error: encoder.vhd(17): (vcom-1396) Object "N" cannot appear within the same interface list in which it is declared.
+# 
+# ** Error: encoder.vhd(17): Bad expression in left bound of range expression.
+# ** Error: encoder.vhd(17): Type error in range expression.
+# ** Warning: encoder.vhd(17): (vcom-1346) Default expression of interface object is not globally static.
+# 
+# ** Error: encoder.vhd(84): VHDL Compiler exiting
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./testbench.tcl line 6
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom *.vhd"
+do testbench.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity btn_debounce_toggle
+# -- Compiling architecture Behavioral of btn_debounce_toggle
+# -- Compiling entity encoder
+# -- Compiling architecture structural of encoder
+# -- Compiling entity encoder_sm
+# -- Compiling architecture BEHAVIOR of encoder_sm
+# -- Compiling entity top_level
+# -- Compiling architecture Structural of top_level
+# ** Error: top_level.vhd(71): Cannot read output "oMaxCars".
+# ** Error: top_level.vhd(73): Type error resolving infix expression "=" as type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: top_level.vhd(73): Cannot read output "oCount".
+# ** Error: top_level.vhd(110): VHDL Compiler exiting
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./testbench.tcl line 6
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom *.vhd"
+do testbench.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity btn_debounce_toggle
+# -- Compiling architecture Behavioral of btn_debounce_toggle
+# -- Compiling entity encoder
+# -- Compiling architecture structural of encoder
+# -- Compiling entity encoder_sm
+# -- Compiling architecture BEHAVIOR of encoder_sm
+# -- Compiling entity top_level
+# -- Compiling architecture Structural of top_level
+# ** Error: top_level.vhd(66): near ";": expecting ':'
+# ** Error: top_level.vhd(74): (vcom-1136) Unknown identifier "reached_max_cars_allowed".
+# 
+# ** Error: top_level.vhd(74): Type error resolving infix expression "or" as type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: top_level.vhd(76): Illegal target for signal assignment.
+# ** Error: top_level.vhd(76): (vcom-1136) Unknown identifier "reached_max_cars_allowed".
+# 
+# ** Error: top_level.vhd(76): Cannot read output "oCount".
+# ** Error: top_level.vhd(77): (vcom-1136) Unknown identifier "reached_max_cars_allowed".
+# 
+# ** Error: top_level.vhd(114): VHDL Compiler exiting
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./testbench.tcl line 6
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom *.vhd"
+do testbench.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity btn_debounce_toggle
+# -- Compiling architecture Behavioral of btn_debounce_toggle
+# -- Compiling entity encoder
+# -- Compiling architecture structural of encoder
+# -- Compiling entity encoder_sm
+# -- Compiling architecture BEHAVIOR of encoder_sm
+# -- Compiling entity top_level
+# -- Compiling architecture Structural of top_level
+# ** Error: top_level.vhd(76): Type error resolving infix expression "=" as type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: top_level.vhd(76): Cannot read output "oCount".
+# ** Error: top_level.vhd(114): VHDL Compiler exiting
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./testbench.tcl line 6
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom *.vhd"
+do testbench.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity btn_debounce_toggle
+# -- Compiling architecture Behavioral of btn_debounce_toggle
+# -- Compiling entity encoder
+# -- Compiling architecture structural of encoder
+# -- Compiling entity encoder_sm
+# -- Compiling architecture BEHAVIOR of encoder_sm
+# -- Compiling entity top_level
+# -- Compiling architecture Structural of top_level
+# ** Error: top_level.vhd(77): Type error resolving infix expression "=" as type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: top_level.vhd(117): VHDL Compiler exiting
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./testbench.tcl line 6
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom *.vhd"
+do testbench.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity btn_debounce_toggle
+# -- Compiling architecture Behavioral of btn_debounce_toggle
+# -- Compiling entity encoder
+# -- Compiling architecture structural of encoder
+# -- Compiling entity encoder_sm
+# -- Compiling architecture BEHAVIOR of encoder_sm
+# -- Compiling entity top_level
+# -- Compiling architecture Structural of top_level
+# ** Error: top_level.vhd(78): Type error resolving infix expression "=" as type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: top_level.vhd(118): VHDL Compiler exiting
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./testbench.tcl line 6
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom *.vhd"
+do testbench.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity btn_debounce_toggle
+# -- Compiling architecture Behavioral of btn_debounce_toggle
+# -- Compiling entity encoder
+# -- Compiling architecture structural of encoder
+# -- Compiling entity encoder_sm
+# -- Compiling architecture BEHAVIOR of encoder_sm
+# -- Compiling entity top_level
+# -- Compiling architecture Structural of top_level
+# ** Error: top_level.vhd(78): Type error resolving infix expression "=" as type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: top_level.vhd(118): VHDL Compiler exiting
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./testbench.tcl line 6
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom *.vhd"
+do testbench.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity btn_debounce_toggle
+# -- Compiling architecture Behavioral of btn_debounce_toggle
+# -- Compiling entity encoder
+# -- Compiling architecture structural of encoder
+# -- Compiling entity encoder_sm
+# -- Compiling architecture BEHAVIOR of encoder_sm
+# -- Compiling entity top_level
+# -- Compiling architecture Structural of top_level
+# ** Error: top_level.vhd(78): Type error resolving infix expression "and" as type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: top_level.vhd(118): VHDL Compiler exiting
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./testbench.tcl line 6
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom *.vhd"
+do testbench.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity btn_debounce_toggle
+# -- Compiling architecture Behavioral of btn_debounce_toggle
+# -- Compiling entity encoder
+# -- Compiling architecture structural of encoder
+# -- Compiling entity encoder_sm
+# -- Compiling architecture BEHAVIOR of encoder_sm
+# -- Compiling entity top_level
+# -- Compiling architecture Structural of top_level
+# ** Error: top_level.vhd(78): Type error resolving infix expression "and" as type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: top_level.vhd(118): VHDL Compiler exiting
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./testbench.tcl line 6
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom *.vhd"
+do testbench.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity btn_debounce_toggle
+# -- Compiling architecture Behavioral of btn_debounce_toggle
+# -- Compiling entity encoder
+# -- Compiling architecture structural of encoder
+# -- Compiling entity encoder_sm
+# -- Compiling architecture BEHAVIOR of encoder_sm
+# -- Compiling entity top_level
+# ** Error: top_level.vhd(8): near ")": expecting FUNCTION or PROCEDURE or IMPURE or PURE
+# ** Error: univ_bin_counter.vhd(5): VHDL Compiler exiting
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./testbench.tcl line 6
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom *.vhd"
+do testbench.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity btn_debounce_toggle
+# -- Compiling architecture Behavioral of btn_debounce_toggle
+# -- Compiling entity encoder
+# -- Compiling architecture structural of encoder
+# -- Compiling entity encoder_sm
+# -- Compiling architecture BEHAVIOR of encoder_sm
+# -- Compiling entity top_level
+# -- Compiling architecture Structural of top_level
+# ** Error: top_level.vhd(77): Type error resolving infix expression "and" as type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: top_level.vhd(117): VHDL Compiler exiting
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./testbench.tcl line 6
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom *.vhd"
+do testbench.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity btn_debounce_toggle
+# -- Compiling architecture Behavioral of btn_debounce_toggle
+# -- Compiling entity encoder
+# -- Compiling architecture structural of encoder
+# -- Compiling entity encoder_sm
+# -- Compiling architecture BEHAVIOR of encoder_sm
+# -- Compiling entity top_level
+# -- Compiling architecture Structural of top_level
+# ** Error: top_level.vhd(77): Type error resolving infix expression "and" as type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: top_level.vhd(117): VHDL Compiler exiting
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./testbench.tcl line 6
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom *.vhd"
+do testbench.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity btn_debounce_toggle
+# -- Compiling architecture Behavioral of btn_debounce_toggle
+# -- Compiling entity encoder
+# -- Compiling architecture structural of encoder
+# -- Compiling entity encoder_sm
+# -- Compiling architecture BEHAVIOR of encoder_sm
+# -- Compiling entity top_level
+# -- Compiling architecture Structural of top_level
+# ** Error: top_level.vhd(77): Type error resolving infix expression "and" as type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: top_level.vhd(117): VHDL Compiler exiting
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./testbench.tcl line 6
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom *.vhd"
+do testbench.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity btn_debounce_toggle
+# -- Compiling architecture Behavioral of btn_debounce_toggle
+# -- Compiling entity encoder
+# -- Compiling architecture structural of encoder
+# -- Compiling entity encoder_sm
+# -- Compiling architecture BEHAVIOR of encoder_sm
+# -- Compiling entity top_level
+# -- Compiling architecture Structural of top_level
+# ** Error: top_level.vhd(66): (vcom-1136) Unknown identifier "unsigned".
+# 
+# ** Error: top_level.vhd(77): No feasible entries for infix operator "and".
+# ** Error: top_level.vhd(77): Type error resolving infix expression "and" as type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: top_level.vhd(117): VHDL Compiler exiting
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./testbench.tcl line 6
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom *.vhd"
+do testbench.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity btn_debounce_toggle
+# -- Compiling architecture Behavioral of btn_debounce_toggle
+# -- Compiling entity encoder
+# -- Compiling architecture structural of encoder
+# -- Compiling entity encoder_sm
+# -- Compiling architecture BEHAVIOR of encoder_sm
+# -- Compiling entity top_level
+# -- Compiling architecture Structural of top_level
+# ** Error: top_level.vhd(77): (vcom-1136) Unknown identifier "to_integer".
+# 
+# ** Error: top_level.vhd(77): Type error resolving infix expression "=" as type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: top_level.vhd(117): VHDL Compiler exiting
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./testbench.tcl line 6
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom *.vhd"
+do testbench.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity btn_debounce_toggle
+# -- Compiling architecture Behavioral of btn_debounce_toggle
+# -- Compiling entity encoder
+# -- Compiling architecture structural of encoder
+# -- Compiling entity encoder_sm
+# -- Compiling architecture BEHAVIOR of encoder_sm
+# -- Compiling entity top_level
+# -- Compiling architecture Structural of top_level
+# ** Error: top_level.vhd(77): (vcom-1136) Unknown identifier "to_integer".
+# 
+# ** Error: top_level.vhd(77): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: top_level.vhd(77): Illegal concurrent statement.
+# ** Error: top_level.vhd(78): near "=": expecting <= or :=
+# ** Error: top_level.vhd(80): near "=": expecting <= or :=
+# ** Error: top_level.vhd(121): VHDL Compiler exiting
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./testbench.tcl line 6
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom *.vhd"
+do testbench.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity btn_debounce_toggle
+# -- Compiling architecture Behavioral of btn_debounce_toggle
+# -- Compiling entity encoder
+# -- Compiling architecture structural of encoder
+# -- Compiling entity encoder_sm
+# -- Compiling architecture BEHAVIOR of encoder_sm
+# -- Compiling entity top_level
+# -- Compiling architecture Structural of top_level
+# ** Error: top_level.vhd(77): (vcom-1136) Unknown identifier "to_integer".
+# 
+# ** Error: top_level.vhd(77): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: top_level.vhd(77): Illegal concurrent statement.
+# ** Error: top_level.vhd(121): VHDL Compiler exiting
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./testbench.tcl line 6
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom *.vhd"
+do testbench.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity btn_debounce_toggle
+# -- Compiling architecture Behavioral of btn_debounce_toggle
+# -- Compiling entity encoder
+# -- Compiling architecture structural of encoder
+# -- Compiling entity encoder_sm
+# -- Compiling architecture BEHAVIOR of encoder_sm
+# -- Compiling entity top_level
+# -- Compiling architecture Structural of top_level
+# ** Error: top_level.vhd(77): (vcom-1136) Unknown identifier "unsigned".
+# 
+# ** Error: top_level.vhd(77): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: top_level.vhd(77): Illegal concurrent statement.
+# ** Error: top_level.vhd(121): VHDL Compiler exiting
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./testbench.tcl line 6
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom *.vhd"
+do testbench.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity btn_debounce_toggle
+# -- Compiling architecture Behavioral of btn_debounce_toggle
+# -- Compiling entity encoder
+# -- Compiling architecture structural of encoder
+# -- Compiling entity encoder_sm
+# -- Compiling architecture BEHAVIOR of encoder_sm
+# -- Loading package NUMERIC_STD
+# -- Compiling entity top_level
+# -- Compiling architecture Structural of top_level
+# ** Error: top_level.vhd(78): Illegal concurrent statement.
+# ** Error: top_level.vhd(122): VHDL Compiler exiting
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./testbench.tcl line 6
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom *.vhd"
+do testbench.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity btn_debounce_toggle
+# -- Compiling architecture Behavioral of btn_debounce_toggle
+# -- Compiling entity encoder
+# -- Compiling architecture structural of encoder
+# -- Compiling entity encoder_sm
+# -- Compiling architecture BEHAVIOR of encoder_sm
+# -- Loading package NUMERIC_STD
+# -- Compiling entity top_level
+# -- Compiling architecture Structural of top_level
+# ** Error: top_level.vhd(78): Operator "=" is ambiguous.
+#    Feasible operators are:
+#       (explicit) NUMERIC_STD."="[INTEGER, ieee.NUMERIC_STD.UNRESOLVED_SIGNED return BOOLEAN] at $MODEL_TECH/../vhdl_src/ieee/mti_numeric_std.vhd(726)
+#       (explicit) NUMERIC_STD."="[NATURAL, ieee.NUMERIC_STD.UNRESOLVED_UNSIGNED return BOOLEAN] at $MODEL_TECH/../vhdl_src/ieee/mti_numeric_std.vhd(718)
+# ** Error: top_level.vhd(78): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: top_level.vhd(78): Illegal concurrent statement.
+# ** Error: top_level.vhd(122): VHDL Compiler exiting
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./testbench.tcl line 6
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom *.vhd"
+do testbench.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity btn_debounce_toggle
+# -- Compiling architecture Behavioral of btn_debounce_toggle
+# -- Compiling entity encoder
+# -- Compiling architecture structural of encoder
+# -- Compiling entity encoder_sm
+# -- Compiling architecture BEHAVIOR of encoder_sm
+# -- Loading package NUMERIC_STD
+# -- Compiling entity top_level
+# -- Compiling architecture Structural of top_level
+# ** Error: top_level.vhd(78): Operator "=" is ambiguous.
+#    Feasible operators are:
+#       (explicit) NUMERIC_STD."="[INTEGER, ieee.NUMERIC_STD.UNRESOLVED_SIGNED return BOOLEAN] at $MODEL_TECH/../vhdl_src/ieee/mti_numeric_std.vhd(726)
+#       (explicit) NUMERIC_STD."="[NATURAL, ieee.NUMERIC_STD.UNRESOLVED_UNSIGNED return BOOLEAN] at $MODEL_TECH/../vhdl_src/ieee/mti_numeric_std.vhd(718)
+# ** Error: top_level.vhd(78): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: top_level.vhd(78): Illegal concurrent statement.
+# ** Error: top_level.vhd(122): VHDL Compiler exiting
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./testbench.tcl line 6
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom *.vhd"
+do testbench.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity btn_debounce_toggle
+# -- Compiling architecture Behavioral of btn_debounce_toggle
+# -- Compiling entity encoder
+# -- Compiling architecture structural of encoder
+# -- Compiling entity encoder_sm
+# -- Compiling architecture BEHAVIOR of encoder_sm
+# -- Loading package NUMERIC_STD
+# -- Compiling entity top_level
+# -- Compiling architecture Structural of top_level
+# ** Error: top_level.vhd(78): Illegal concurrent statement.
+# ** Error: top_level.vhd(122): VHDL Compiler exiting
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./testbench.tcl line 6
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom *.vhd"
+do testbench.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity btn_debounce_toggle
+# -- Compiling architecture Behavioral of btn_debounce_toggle
+# -- Compiling entity encoder
+# -- Compiling architecture structural of encoder
+# -- Compiling entity encoder_sm
+# -- Compiling architecture BEHAVIOR of encoder_sm
+# -- Loading package NUMERIC_STD
+# -- Compiling entity top_level
+# -- Compiling architecture Structural of top_level
+# ** Error: top_level.vhd(80): near "oMaxCars": expecting ';'
+# ** Error: top_level.vhd(119): VHDL Compiler exiting
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./testbench.tcl line 6
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom *.vhd"
+do testbench.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity btn_debounce_toggle
+# -- Compiling architecture Behavioral of btn_debounce_toggle
+# -- Compiling entity encoder
+# -- Compiling architecture structural of encoder
+# -- Compiling entity encoder_sm
+# -- Compiling architecture BEHAVIOR of encoder_sm
+# -- Loading package NUMERIC_STD
+# -- Compiling entity top_level
+# -- Compiling architecture Structural of top_level
+# -- Compiling entity univ_bin_counter
+# -- Compiling architecture arch of univ_bin_counter
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity encoder_tb
+# -- Compiling architecture tb of encoder_tb
+# -- Loading package NUMERIC_STD
+# -- Loading entity top_level
+# ** Error: encoder_tb.vht(22): (vcom-1484) Unknown formal identifier "MAX_CARS".
+# 
+# ** Warning: [4] encoder_tb.vht(34): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(36): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(48): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(49): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(52): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(57): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(58): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(62): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(66): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(70): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(72): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(73): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(78): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(81): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(84): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(85): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(86): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(87): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(88): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(89): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(90): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(91): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(92): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(93): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(95): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(96): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(97): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(98): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(99): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(101): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(102): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(103): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(104): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(105): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(110): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(111): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(112): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(113): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(114): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(120): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(120): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(120): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(120): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(120): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(123): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(123): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(123): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(123): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(123): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: encoder_tb.vht(131): VHDL Compiler exiting
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./testbench.tcl line 7
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom *.vht"
+do testbench.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity btn_debounce_toggle
+# -- Compiling architecture Behavioral of btn_debounce_toggle
+# -- Compiling entity encoder
+# -- Compiling architecture structural of encoder
+# -- Compiling entity encoder_sm
+# -- Compiling architecture BEHAVIOR of encoder_sm
+# -- Loading package NUMERIC_STD
+# -- Compiling entity top_level
+# -- Compiling architecture Structural of top_level
+# -- Compiling entity univ_bin_counter
+# -- Compiling architecture arch of univ_bin_counter
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity encoder_tb
+# -- Compiling architecture tb of encoder_tb
+# -- Loading package NUMERIC_STD
+# -- Loading entity top_level
+# ** Warning: [4] encoder_tb.vht(34): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(36): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(48): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(49): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(52): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(57): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(58): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(62): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(66): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(70): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(72): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(73): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(78): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(81): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(84): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(85): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(86): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(87): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(88): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(89): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(90): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(91): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(92): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(93): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(95): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(96): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(97): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(98): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(99): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(101): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(102): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(103): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(104): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(105): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(110): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(111): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(112): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(113): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(114): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(120): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(120): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(120): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(120): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(120): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(123): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(123): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(123): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(123): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(123): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: encoder_tb.vht(22): (vcom-1272) Length of formal "MAX_CARS" is 8; length of actual is 4.
+# 
+# ** Error: encoder_tb.vht(131): VHDL Compiler exiting
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./testbench.tcl line 7
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom *.vht"
+do testbench.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity btn_debounce_toggle
+# -- Compiling architecture Behavioral of btn_debounce_toggle
+# -- Compiling entity encoder
+# -- Compiling architecture structural of encoder
+# -- Compiling entity encoder_sm
+# -- Compiling architecture BEHAVIOR of encoder_sm
+# -- Loading package NUMERIC_STD
+# -- Compiling entity top_level
+# -- Compiling architecture Structural of top_level
+# -- Compiling entity univ_bin_counter
+# -- Compiling architecture arch of univ_bin_counter
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity encoder_tb
+# -- Compiling architecture tb of encoder_tb
+# -- Loading package NUMERIC_STD
+# -- Loading entity top_level
+# ** Warning: [4] encoder_tb.vht(34): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(36): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(48): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(49): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(52): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(57): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(58): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(62): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(66): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(70): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(72): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(73): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(78): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(81): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(84): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(85): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(86): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(87): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(88): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(89): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(90): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(91): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(92): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(93): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(95): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(96): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(97): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(98): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(99): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(101): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(102): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(103): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(104): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(105): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(110): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(111): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(112): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(113): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(114): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(120): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(120): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(120): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(120): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(120): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(123): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(123): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(123): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(123): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(123): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# vsim +altera -do for_export.do -l msim_transcript -gui work.encoder_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.encoder_tb(tb)
+# Loading work.top_level(structural)
+# Loading work.univ_bin_counter(arch)
+# Loading work.encoder_sm(behavior)
+# do for_export.do 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /encoder_tb/DUT/counter
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /encoder_tb/DUT/counter
+do testbench.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity btn_debounce_toggle
+# -- Compiling architecture Behavioral of btn_debounce_toggle
+# -- Compiling entity encoder
+# -- Compiling architecture structural of encoder
+# -- Compiling entity encoder_sm
+# -- Compiling architecture BEHAVIOR of encoder_sm
+# -- Loading package NUMERIC_STD
+# -- Compiling entity top_level
+# -- Compiling architecture Structural of top_level
+# -- Compiling entity univ_bin_counter
+# -- Compiling architecture arch of univ_bin_counter
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity encoder_tb
+# -- Compiling architecture tb of encoder_tb
+# -- Loading package NUMERIC_STD
+# -- Loading entity top_level
+# ** Warning: [4] encoder_tb.vht(34): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(36): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(48): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(49): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(52): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(57): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(58): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(62): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(66): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(70): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(72): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(73): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(78): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(81): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(84): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(85): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(86): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(87): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(88): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(89): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(90): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(91): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(92): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(93): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(95): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(96): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(97): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(98): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(99): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(101): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(102): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(103): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(104): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(105): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(110): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(111): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(112): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(113): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(114): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(120): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(120): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(120): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(120): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(120): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(123): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(123): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(123): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(123): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(123): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# vsim +altera -do for_export.do -l msim_transcript -gui work.encoder_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.encoder_tb(tb)
+# Loading work.top_level(structural)
+# Loading work.univ_bin_counter(arch)
+# Loading work.encoder_sm(behavior)
+# do for_export.do 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /encoder_tb/DUT/counter
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /encoder_tb/DUT/counter
+add wave -position end  sim:/encoder_tb/DUT/oMaxCars
+restart
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /encoder_tb/DUT/counter
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /encoder_tb/DUT/counter
+do testbench.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity btn_debounce_toggle
+# -- Compiling architecture Behavioral of btn_debounce_toggle
+# -- Compiling entity encoder
+# -- Compiling architecture structural of encoder
+# -- Compiling entity encoder_sm
+# -- Compiling architecture BEHAVIOR of encoder_sm
+# -- Loading package NUMERIC_STD
+# -- Compiling entity top_level
+# -- Compiling architecture Structural of top_level
+# -- Compiling entity univ_bin_counter
+# -- Compiling architecture arch of univ_bin_counter
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity encoder_tb
+# -- Compiling architecture tb of encoder_tb
+# -- Loading package NUMERIC_STD
+# -- Loading entity top_level
+# ** Warning: [4] encoder_tb.vht(36): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(38): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(50): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(51): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(54): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(59): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(60): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(64): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(68): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(72): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(74): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(75): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(80): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(83): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(86): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(87): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(88): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(89): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(90): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(91): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(92): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(93): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(94): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(95): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(97): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(98): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(99): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(100): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(101): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(103): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(104): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(105): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(106): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(107): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(112): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(113): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(114): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(115): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(116): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(122): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(122): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(122): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(122): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(122): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(125): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(125): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(125): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(125): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(125): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# vsim +altera -do for_export.do -l msim_transcript -gui work.encoder_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.encoder_tb(tb)
+# Loading work.top_level(structural)
+# Loading work.univ_bin_counter(arch)
+# Loading work.encoder_sm(behavior)
+# do for_export.do 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /encoder_tb/DUT/counter
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /encoder_tb/DUT/counter
+add wave -position end  sim:/encoder_tb/max_cars
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf S:/Courses/EE365/P3/for_export.do
+do testbench.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity btn_debounce_toggle
+# -- Compiling architecture Behavioral of btn_debounce_toggle
+# -- Compiling entity encoder
+# -- Compiling architecture structural of encoder
+# -- Compiling entity encoder_sm
+# -- Compiling architecture BEHAVIOR of encoder_sm
+# -- Loading package NUMERIC_STD
+# -- Compiling entity top_level
+# -- Compiling architecture Structural of top_level
+# -- Compiling entity univ_bin_counter
+# -- Compiling architecture arch of univ_bin_counter
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity encoder_tb
+# -- Compiling architecture tb of encoder_tb
+# -- Loading package NUMERIC_STD
+# -- Loading entity top_level
+# ** Warning: [4] encoder_tb.vht(36): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(38): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(50): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(51): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(54): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(59): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(60): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(64): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(68): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(72): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(74): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(75): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(80): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(83): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(86): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(87): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(88): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(89): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(90): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(91): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(92): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(93): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(94): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(95): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(97): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(98): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(99): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(100): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(101): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(103): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(104): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(105): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(106): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(107): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(112): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(113): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(114): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(115): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(116): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(122): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(122): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(122): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(122): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(122): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(125): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(125): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(125): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(125): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(125): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# vsim +altera -do for_export.do -l msim_transcript -gui work.encoder_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.encoder_tb(tb)
+# Loading work.top_level(structural)
+# Loading work.univ_bin_counter(arch)
+# Loading work.encoder_sm(behavior)
+# do for_export.do 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /encoder_tb/DUT/counter
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /encoder_tb/DUT/counter
+do testbench.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity btn_debounce_toggle
+# -- Compiling architecture Behavioral of btn_debounce_toggle
+# -- Compiling entity encoder
+# -- Compiling architecture structural of encoder
+# -- Compiling entity encoder_sm
+# -- Compiling architecture BEHAVIOR of encoder_sm
+# -- Loading package NUMERIC_STD
+# -- Compiling entity top_level
+# -- Compiling architecture Structural of top_level
+# -- Compiling entity univ_bin_counter
+# -- Compiling architecture arch of univ_bin_counter
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity encoder_tb
+# -- Compiling architecture tb of encoder_tb
+# -- Loading package NUMERIC_STD
+# -- Loading entity top_level
+# ** Warning: [4] encoder_tb.vht(36): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(38): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(50): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(51): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(54): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(59): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(60): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(64): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(68): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(72): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(74): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(75): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(80): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(83): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(86): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(87): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(88): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(89): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(90): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(91): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(92): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(93): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(94): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(95): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(97): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(98): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(99): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(100): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(101): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(103): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(104): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(105): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(106): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(107): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(112): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(113): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(114): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(115): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(116): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(122): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(122): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(122): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(122): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(122): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(125): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(125): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(125): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(125): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(125): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# vsim +altera -do for_export.do -l msim_transcript -gui work.encoder_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.encoder_tb(tb)
+# Loading work.top_level(structural)
+# Loading work.univ_bin_counter(arch)
+# Loading work.encoder_sm(behavior)
+# do for_export.do 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /encoder_tb/DUT/counter
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /encoder_tb/DUT/counter
+# ** Error: FAILED: Counter did not count up
+#    Time: 321 ns  Iteration: 0  Instance: /encoder_tb
+# ** Error: FAILED: Counter did not count down
+#    Time: 441 ns  Iteration: 0  Instance: /encoder_tb
+# ** Error: FAILED: Counter underflowed
+#    Time: 501 ns  Iteration: 0  Instance: /encoder_tb
+# ** Error: FAILED: Counter did not get to max value
+#    Time: 1461 ns  Iteration: 0  Instance: /encoder_tb
+# ** Error: FAILED: Counter overflowed
+#    Time: 1521 ns  Iteration: 0  Instance: /encoder_tb
+do for_export.do
+do testbench.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity btn_debounce_toggle
+# -- Compiling architecture Behavioral of btn_debounce_toggle
+# -- Compiling entity encoder
+# -- Compiling architecture structural of encoder
+# -- Compiling entity encoder_sm
+# -- Compiling architecture BEHAVIOR of encoder_sm
+# -- Loading package NUMERIC_STD
+# -- Compiling entity top_level
+# -- Compiling architecture Structural of top_level
+# -- Compiling entity univ_bin_counter
+# -- Compiling architecture arch of univ_bin_counter
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity encoder_tb
+# -- Compiling architecture tb of encoder_tb
+# -- Loading package NUMERIC_STD
+# -- Loading entity top_level
+# ** Warning: [4] encoder_tb.vht(36): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(38): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(50): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(51): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(54): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(59): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(60): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(64): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(68): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(72): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(74): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(75): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(80): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(83): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(86): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(87): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(88): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(89): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(90): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(91): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(92): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(93): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(94): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(95): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(97): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(98): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(99): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(100): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(101): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(103): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(104): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(105): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(106): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(107): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(112): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(113): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(114): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(115): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(116): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(122): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(122): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(122): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(122): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(122): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(125): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(125): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(125): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(125): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(125): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# vsim +altera -do for_export.do -l msim_transcript -gui work.encoder_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.encoder_tb(tb)
+# Loading work.top_level(structural)
+# Loading work.univ_bin_counter(arch)
+# Loading work.encoder_sm(behavior)
+# do for_export.do 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /encoder_tb/DUT/counter
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /encoder_tb/DUT/counter
+add wave -position end  sim:/encoder_tb/DUT/MAX_CARS
+run
+run
+do testbench.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity btn_debounce_toggle
+# -- Compiling architecture Behavioral of btn_debounce_toggle
+# -- Compiling entity encoder
+# -- Compiling architecture structural of encoder
+# -- Compiling entity encoder_sm
+# -- Compiling architecture BEHAVIOR of encoder_sm
+# -- Loading package NUMERIC_STD
+# -- Compiling entity top_level
+# -- Compiling architecture Structural of top_level
+# -- Compiling entity univ_bin_counter
+# -- Compiling architecture arch of univ_bin_counter
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity encoder_tb
+# -- Compiling architecture tb of encoder_tb
+# -- Loading package NUMERIC_STD
+# -- Loading entity top_level
+# ** Warning: [4] encoder_tb.vht(36): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(38): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(50): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(51): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(54): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(59): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(60): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(64): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(68): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(72): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(74): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(75): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(80): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(83): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(86): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(87): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(88): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(89): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(90): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(91): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(92): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(93): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(94): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(95): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(97): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(98): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(99): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(100): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(101): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(103): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(104): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(105): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(106): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(107): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(112): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(113): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(114): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(115): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(116): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(122): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(122): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(122): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(122): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(122): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(125): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(125): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(125): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(125): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(125): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# vsim +altera -do for_export.do -l msim_transcript -gui work.encoder_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.encoder_tb(tb)
+# Loading work.top_level(structural)
+# Loading work.univ_bin_counter(arch)
+# Loading work.encoder_sm(behavior)
+# do for_export.do 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /encoder_tb/DUT/counter
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /encoder_tb/DUT/counter
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /encoder_tb/DUT
+# ** Error: FAILED: Counter did not get to max value
+#    Time: 1461 ns  Iteration: 0  Instance: /encoder_tb
+# ** Error: FAILED: Counter overflowed
+#    Time: 1521 ns  Iteration: 0  Instance: /encoder_tb
+do testbench.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity btn_debounce_toggle
+# -- Compiling architecture Behavioral of btn_debounce_toggle
+# -- Compiling entity encoder
+# -- Compiling architecture structural of encoder
+# -- Compiling entity encoder_sm
+# -- Compiling architecture BEHAVIOR of encoder_sm
+# -- Loading package NUMERIC_STD
+# -- Compiling entity top_level
+# -- Compiling architecture Structural of top_level
+# -- Compiling entity univ_bin_counter
+# -- Compiling architecture arch of univ_bin_counter
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity encoder_tb
+# -- Compiling architecture tb of encoder_tb
+# -- Loading package NUMERIC_STD
+# -- Loading entity top_level
+# ** Warning: [4] encoder_tb.vht(36): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(38): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(50): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(51): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(54): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(59): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(60): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(64): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(68): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(72): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(74): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(75): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(80): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(83): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(86): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(87): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(88): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(89): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(90): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(91): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(92): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(93): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(94): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(95): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(97): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(98): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(99): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(100): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(101): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(103): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(104): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(105): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(106): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(107): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(112): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(113): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(114): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(115): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(116): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(122): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(122): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(122): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(122): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(122): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(125): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(125): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(125): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(125): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] encoder_tb.vht(125): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# vsim +altera -do for_export.do -l msim_transcript -gui work.encoder_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.encoder_tb(tb)
+# Loading work.top_level(structural)
+# Loading work.univ_bin_counter(arch)
+# Loading work.encoder_sm(behavior)
+# do for_export.do 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /encoder_tb/DUT/counter
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /encoder_tb/DUT/counter
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /encoder_tb/DUT
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf S:/Courses/EE365/P3/for_export.do

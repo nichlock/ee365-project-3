@@ -1,0 +1,12 @@
+
+State Machine - |encoder|top_level:Inst_top_level|encoder_sm:state_machine|fstate
+Name fstate.sub_one fstate.add_one fstate.leaving_from_right fstate.leaving_from_left fstate.in_middle_from_right fstate.in_middle_from_left fstate.from_right fstate.from_left fstate.init 
+fstate.init 0 0 0 0 0 0 0 0 0 
+fstate.from_left 0 0 0 0 0 0 0 1 1 
+fstate.from_right 0 0 0 0 0 0 1 0 1 
+fstate.in_middle_from_left 0 0 0 0 0 1 0 0 1 
+fstate.in_middle_from_right 0 0 0 0 1 0 0 0 1 
+fstate.leaving_from_left 0 0 0 1 0 0 0 0 1 
+fstate.leaving_from_right 0 0 1 0 0 0 0 0 1 
+fstate.add_one 0 1 0 0 0 0 0 0 1 
+fstate.sub_one 1 0 0 0 0 0 0 0 1 

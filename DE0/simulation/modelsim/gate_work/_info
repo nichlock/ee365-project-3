@@ -1,0 +1,52 @@
+m255
+K3
+13
+cModel Technology
+Z0 dS:\Courses\EE365\P3\simulation\modelsim
+Eencoder
+Z1 w1634068148
+Z2 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 Pha:T]_MmzTJCYhSbeLPQ1
+Z3 DPx10 cycloneive 21 cycloneive_components 0 22 mVG;b;]=zAIVfAk:WJ`El1
+Z4 DPx4 ieee 16 vital_primitives 0 22 9W@YP9_VCb?_GCJ8e:;YQ0
+Z5 DPx6 altera 11 dffeas_pack 0 22 Giz7C_dB_=WZS^1=3P8073
+Z6 DPx4 ieee 12 vital_timing 0 22 7h8zz2S4HVg:a;2TBMI[j1
+Z7 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z8 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z9 DPx6 altera 28 altera_primitives_components 0 22 W]_:GkoiISnEn83KNb:3:2
+Z10 dS:\Courses\EE365\P3\simulation\modelsim
+Z11 8encoder_6_1200mv_85c_slow.vho
+Z12 Fencoder_6_1200mv_85c_slow.vho
+l0
+L36
+VQgc=c^odibWXVIU4M?T[o0
+!s100 P]eA[ESFjjL0ZkKDbl>Bc3
+Z13 OV;C;10.1d;51
+31
+!i10b 1
+Z14 !s108 1634076303.910000
+Z15 !s90 -reportprogress|300|-93|-work|work|encoder_6_1200mv_85c_slow.vho|
+Z16 !s107 encoder_6_1200mv_85c_slow.vho|
+Z17 o-93 -work work -O0
+Z18 tExplicit 1
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+DEx4 work 7 encoder 0 22 Qgc=c^odibWXVIU4M?T[o0
+l214
+L69
+VfUQgP^]4iacV]@cNWeeko3
+!s100 281c?OR5FM4STYJz4R<kC3
+R13
+31
+!i10b 1
+R14
+R15
+R16
+R17
+R18

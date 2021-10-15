@@ -1,0 +1,51 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity top_level is
+    generic(N: integer := 8);
+    port (
+    iRst       : in STD_LOGIC; 
+    iClk       : in STD_LOGIC; 
+    iA         : in STD_LOGIC;
+    iB         : in STD_LOGIC;
+    oA         : out STD_LOGIC;
+    oB         : out STD_LOGIC;
+	 oCount     : out STD_LOGIC_VECTOR(N-1 downto 0)
+    );
+end top_level;
+
+
+architecture Structural of top_level is
+
+  component btn_debounce_toggle is
+    port(
+           BTN_I    : in   STD_LOGIC;
+           CLK      : in   STD_LOGIC;
+           BTN_O    : out  STD_LOGIC;
+           TOGGLE_O : out  STD_LOGIC
+    );
+  end component;
+  
+  signal safe_A   :std_logic;
+  signal safe_B   :std_logic;
+  
+  begin
+  
+  oA <= safe_A;
+  oB <= safe_B;
+  
+  debouncer_a: btn_debounce_toggle 
+    port map (
+      BTN_I     => iA,
+      CLK       => iClk,
+      BTN_O     => safe_A
+    );
+	 
+  debouncer_b: btn_debounce_toggle 
+    port map (
+      BTN_I     => iB,
+      CLK       => iClk,
+      BTN_O     => safe_B
+    );
+
+end Structural;

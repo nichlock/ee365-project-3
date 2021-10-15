@@ -1,0 +1,146 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity encoder is
+    generic(N: integer := 8; DEB: std_logic_vector(15 downto 0) := X"FFFF");
+    port (
+    iRst       : in STD_LOGIC; 
+    iClk       : in STD_LOGIC; 
+    iA         : in STD_LOGIC;
+    iB         : in STD_LOGIC;
+    iDir       : in STD_LOGIC;
+	 oCount     : out STD_LOGIC_VECTOR(N-1 downto 0)
+    );
+end encoder;
+
+
+architecture Structural of encoder is
+
+  component btn_debounce_toggle is
+	 GENERIC (CONSTANT CNTR_MAX : std_logic_vector(15 downto 0) := X"FFFF");
+    port(
+           BTN_I    : in   STD_LOGIC;
+           CLK      : in   STD_LOGIC;
+           BTN_O    : out  STD_LOGIC;
+           TOGGLE_O : out  STD_LOGIC
+    );
+  end component;
+  
+ component univ_bin_counter is
+	 generic(N: integer := N);
+	 port(
+		clk        : in std_logic;
+		reset      : in std_logic;
+		syn_clr    : in std_logic;
+		load       : in std_logic;
+		en         : in std_logic := '1';
+		up         : in std_logic;
+		clk_en     : in std_logic := '1';
+		d          : in std_logic_vector(N-1 downto 0) := (others => '0');
+		max_tick   : out std_logic;
+		min_tick   : out std_logic;
+		q          : out std_logic_vector(N-1 downto 0)
+	 );
+  end component;
+  
+  component encoder_sm is
+    port(
+           clock  : in   STD_LOGIC;
+           reset  : in   STD_LOGIC;
+           a      : in   STD_LOGIC;
+           b      : in   STD_LOGIC;
+           add    : out  STD_LOGIC;
+           sub    : out  STD_LOGIC
+    );
+  end component;
+  
+  -- Inputs after debouncing
+  signal safe_A         :std_logic;
+  signal safe_B         :std_logic;
+  signal safe_Rst         :std_logic;
+  
+  -- Signals from the state machine
+  signal add_this_cycle :std_logic;
+  signal sub_this_cycle :std_logic;
+  
+  -- Counter logic signals
+  signal ctr_up :std_logic;
+  signal ctr_count_this_cycle :std_logic := '0';
+  signal ctr_over_under_flow_prevent :std_logic := '0';
+  signal ctr_reached_max :std_logic := '0';
+  signal ctr_reached_min :std_logic := '0';
+  -- Counter register output signals
+  signal ctr_count_this_cycle_q :std_logic := '0';
+  signal ctr_over_under_flow_prevent_q :std_logic := '0';
+  
+  begin
+  
+  safe_Rst <= iRst; -- Skip debounce
+  
+-- COUNTER RESET AND DIRECTION LOGIC ------------------------------------------
+  ctr_count_this_cycle <= (add_this_cycle OR sub_this_cycle) AND (NOT ctr_over_under_flow_prevent);
+  ctr_up <= add_this_cycle XOR iDir;
+  -- Prevents over/underflow by just not counting when it wants to count too high or low
+  ctr_over_under_flow_prevent <= (add_this_cycle AND ctr_reached_max) OR (sub_this_cycle AND ctr_reached_min);
+  
+  -- COUNTER REGISTERS FOR RST/DIR LOGIC --------------------------------------
+  PROCESS (iClk)
+   BEGIN
+     IF iClk'EVENT AND iClk = '0' THEN
+		  ctr_count_this_cycle_q <= ctr_count_this_cycle;
+		  ctr_over_under_flow_prevent_q <= ctr_over_under_flow_prevent;
+	  END IF;
+   END PROCESS;
+  -- END Counter registered values
+  
+  -- DEBOUNCING ---------------------------------------------------------------
+  debouncer_a: btn_debounce_toggle 
+    generic map (CNTR_MAX => DEB)
+    port map (
+      BTN_I     => iA,
+      CLK       => iClk,
+      BTN_O     => safe_A
+    );
+	 
+  debouncer_b: btn_debounce_toggle 
+	generic map (CNTR_MAX => DEB)
+    port map (
+      BTN_I     => iB,
+      CLK       => iClk,
+      BTN_O     => safe_B
+    );
+	 
+--  debouncer_rst: btn_debounce_toggle 
+--	generic map (CNTR_MAX => DEB)
+--    port map (
+--      BTN_I     => iRst,
+--      CLK       => iClk,
+--      BTN_O     => safe_Rst
+--    );
+
+  -- COUNTER AND STATE MACHINE ------------------------------------------------
+  counter: univ_bin_counter 
+    port map (
+		clk        => iClk,
+		reset      => safe_Rst,
+		syn_clr    => safe_Rst,
+		load       => safe_Rst,
+		--en         => ,
+		up         => ctr_up,
+		clk_en     => ctr_count_this_cycle,
+		max_tick   => ctr_reached_max,
+		min_tick   => ctr_reached_min,
+		q          => oCount
+    );
+	 
+  state_machine: encoder_sm 
+    port map (
+	   clock  => iClk,
+	   reset  => safe_Rst,
+	   a      => safe_A,
+	   b      => safe_B,
+	   add    => add_this_cycle,
+	   sub    => sub_this_cycle
+    );
+
+end Structural;

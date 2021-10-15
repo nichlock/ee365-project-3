@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Oct 14 22:33:22 2021
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+Revision Name : encoder
+Top-level Entity Name : encoder
+Family : Cyclone II
+Total logic elements : 721
+    Total combinational functions : 489
+    Dedicated logic registers : 516
+Total registers : 516
+Total pins : 30
+Total virtual pins : 0
+Total memory bits : 2,816
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

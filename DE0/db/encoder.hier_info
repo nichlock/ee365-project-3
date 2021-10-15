@@ -1,0 +1,212 @@
+|encoder
+CLOCK_50 => top_level:Inst_top_level.iClk
+CLOCK_50 => btn_debounce_toggle:debouncer_a.CLK
+CLOCK_50 => btn_debounce_toggle:debouncer_b.CLK
+CLOCK_50 => btn_debounce_toggle:debouncer_rst.CLK
+KEY[0] => btn_debounce_toggle:debouncer_a.BTN_I
+KEY[1] => btn_debounce_toggle:debouncer_b.BTN_I
+SW[0] => top_level:Inst_top_level.iRst
+SW[1] => btn_debounce_toggle:debouncer_rst.BTN_I
+SW[2] => ~NO_FANOUT~
+SW[3] => ~NO_FANOUT~
+LED[0] <= top_level:Inst_top_level.oCount[0]
+LED[1] <= top_level:Inst_top_level.oCount[1]
+LED[2] <= top_level:Inst_top_level.oCount[2]
+LED[3] <= top_level:Inst_top_level.oCount[3]
+LED[4] <= top_level:Inst_top_level.oCount[4]
+LED[5] <= top_level:Inst_top_level.oCount[5]
+LED[6] <= top_level:Inst_top_level.oCount[6]
+LED[7] <= top_level:Inst_top_level.oCount[7]
+
+
+|encoder|top_level:Inst_top_level
+iRst => univ_bin_counter:counter.reset
+iRst => univ_bin_counter:counter.syn_clr
+iRst => univ_bin_counter:counter.load
+iRst => encoder_sm:state_machine.reset
+iClk => univ_bin_counter:counter.clk
+iClk => encoder_sm:state_machine.clock
+iA => encoder_sm:state_machine.a
+iB => encoder_sm:state_machine.b
+iDir => ctr_up.IN1
+oCount[0] <= univ_bin_counter:counter.q[0]
+oCount[1] <= univ_bin_counter:counter.q[1]
+oCount[2] <= univ_bin_counter:counter.q[2]
+oCount[3] <= univ_bin_counter:counter.q[3]
+oCount[4] <= univ_bin_counter:counter.q[4]
+oCount[5] <= univ_bin_counter:counter.q[5]
+oCount[6] <= univ_bin_counter:counter.q[6]
+oCount[7] <= univ_bin_counter:counter.q[7]
+
+
+|encoder|top_level:Inst_top_level|univ_bin_counter:counter
+clk => r_reg[0].CLK
+clk => r_reg[1].CLK
+clk => r_reg[2].CLK
+clk => r_reg[3].CLK
+clk => r_reg[4].CLK
+clk => r_reg[5].CLK
+clk => r_reg[6].CLK
+clk => r_reg[7].CLK
+reset => r_reg[0].ACLR
+reset => r_reg[1].ACLR
+reset => r_reg[2].ACLR
+reset => r_reg[3].ACLR
+reset => r_reg[4].ACLR
+reset => r_reg[5].ACLR
+reset => r_reg[6].ACLR
+reset => r_reg[7].ACLR
+syn_clr => r_next[7].OUTPUTSELECT
+syn_clr => r_next[6].OUTPUTSELECT
+syn_clr => r_next[5].OUTPUTSELECT
+syn_clr => r_next[4].OUTPUTSELECT
+syn_clr => r_next[3].OUTPUTSELECT
+syn_clr => r_next[2].OUTPUTSELECT
+syn_clr => r_next[1].OUTPUTSELECT
+syn_clr => r_next[0].OUTPUTSELECT
+load => r_next.OUTPUTSELECT
+load => r_next.OUTPUTSELECT
+load => r_next.OUTPUTSELECT
+load => r_next.OUTPUTSELECT
+load => r_next.OUTPUTSELECT
+load => r_next.OUTPUTSELECT
+load => r_next.OUTPUTSELECT
+load => r_next.OUTPUTSELECT
+en => r_next.IN0
+en => r_next.IN0
+up => r_next.IN1
+up => r_next.IN1
+clk_en => r_reg[1].ENA
+clk_en => r_reg[0].ENA
+clk_en => r_reg[2].ENA
+clk_en => r_reg[3].ENA
+clk_en => r_reg[4].ENA
+clk_en => r_reg[5].ENA
+clk_en => r_reg[6].ENA
+clk_en => r_reg[7].ENA
+d[0] => r_next.DATAB
+d[1] => r_next.DATAB
+d[2] => r_next.DATAB
+d[3] => r_next.DATAB
+d[4] => r_next.DATAB
+d[5] => r_next.DATAB
+d[6] => r_next.DATAB
+d[7] => r_next.DATAB
+max_tick <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+min_tick <= Equal1.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= r_reg[0].DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= r_reg[1].DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= r_reg[2].DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= r_reg[3].DB_MAX_OUTPUT_PORT_TYPE
+q[4] <= r_reg[4].DB_MAX_OUTPUT_PORT_TYPE
+q[5] <= r_reg[5].DB_MAX_OUTPUT_PORT_TYPE
+q[6] <= r_reg[6].DB_MAX_OUTPUT_PORT_TYPE
+q[7] <= r_reg[7].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|encoder|top_level:Inst_top_level|encoder_sm:state_machine
+clock => fstate~1.DATAIN
+reset => reg_fstate.init.OUTPUTSELECT
+reset => reg_fstate.from_left.OUTPUTSELECT
+reset => reg_fstate.from_right.OUTPUTSELECT
+reset => reg_fstate.in_middle_from_left.OUTPUTSELECT
+reset => reg_fstate.in_middle_from_right.OUTPUTSELECT
+reset => reg_fstate.leaving_from_left.OUTPUTSELECT
+reset => reg_fstate.leaving_from_right.OUTPUTSELECT
+reset => reg_fstate.add_one.OUTPUTSELECT
+reset => reg_fstate.sub_one.OUTPUTSELECT
+reset => add.OUTPUTSELECT
+reset => sub.OUTPUTSELECT
+a => process_1.IN0
+a => process_1.IN0
+a => process_1.IN0
+a => process_1.IN0
+b => process_1.IN1
+b => process_1.IN1
+b => process_1.IN1
+b => process_1.IN1
+add <= add.DB_MAX_OUTPUT_PORT_TYPE
+sub <= sub.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|encoder|btn_debounce_toggle:debouncer_a
+BTN_I => btn_counter_process.IN1
+CLK => btn_toggle.CLK
+CLK => btn_pulse.CLK
+CLK => btn_sync[0].CLK
+CLK => btn_sync[1].CLK
+CLK => btn_cntr[0].CLK
+CLK => btn_cntr[1].CLK
+CLK => btn_cntr[2].CLK
+CLK => btn_cntr[3].CLK
+CLK => btn_cntr[4].CLK
+CLK => btn_cntr[5].CLK
+CLK => btn_cntr[6].CLK
+CLK => btn_cntr[7].CLK
+CLK => btn_cntr[8].CLK
+CLK => btn_cntr[9].CLK
+CLK => btn_cntr[10].CLK
+CLK => btn_cntr[11].CLK
+CLK => btn_cntr[12].CLK
+CLK => btn_cntr[13].CLK
+CLK => btn_cntr[14].CLK
+CLK => btn_cntr[15].CLK
+CLK => btn_reg.CLK
+BTN_O <= btn_reg.DB_MAX_OUTPUT_PORT_TYPE
+TOGGLE_O <= btn_toggle.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|encoder|btn_debounce_toggle:debouncer_b
+BTN_I => btn_counter_process.IN1
+CLK => btn_toggle.CLK
+CLK => btn_pulse.CLK
+CLK => btn_sync[0].CLK
+CLK => btn_sync[1].CLK
+CLK => btn_cntr[0].CLK
+CLK => btn_cntr[1].CLK
+CLK => btn_cntr[2].CLK
+CLK => btn_cntr[3].CLK
+CLK => btn_cntr[4].CLK
+CLK => btn_cntr[5].CLK
+CLK => btn_cntr[6].CLK
+CLK => btn_cntr[7].CLK
+CLK => btn_cntr[8].CLK
+CLK => btn_cntr[9].CLK
+CLK => btn_cntr[10].CLK
+CLK => btn_cntr[11].CLK
+CLK => btn_cntr[12].CLK
+CLK => btn_cntr[13].CLK
+CLK => btn_cntr[14].CLK
+CLK => btn_cntr[15].CLK
+CLK => btn_reg.CLK
+BTN_O <= btn_reg.DB_MAX_OUTPUT_PORT_TYPE
+TOGGLE_O <= btn_toggle.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|encoder|btn_debounce_toggle:debouncer_rst
+BTN_I => btn_counter_process.IN1
+CLK => btn_toggle.CLK
+CLK => btn_pulse.CLK
+CLK => btn_sync[0].CLK
+CLK => btn_sync[1].CLK
+CLK => btn_cntr[0].CLK
+CLK => btn_cntr[1].CLK
+CLK => btn_cntr[2].CLK
+CLK => btn_cntr[3].CLK
+CLK => btn_cntr[4].CLK
+CLK => btn_cntr[5].CLK
+CLK => btn_cntr[6].CLK
+CLK => btn_cntr[7].CLK
+CLK => btn_cntr[8].CLK
+CLK => btn_cntr[9].CLK
+CLK => btn_cntr[10].CLK
+CLK => btn_cntr[11].CLK
+CLK => btn_cntr[12].CLK
+CLK => btn_cntr[13].CLK
+CLK => btn_cntr[14].CLK
+CLK => btn_cntr[15].CLK
+CLK => btn_reg.CLK
+BTN_O <= btn_reg.DB_MAX_OUTPUT_PORT_TYPE
+TOGGLE_O <= btn_toggle.DB_MAX_OUTPUT_PORT_TYPE
+
+

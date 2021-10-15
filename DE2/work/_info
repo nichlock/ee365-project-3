@@ -1,0 +1,225 @@
+m255
+K3
+13
+cModel Technology
+Z0 dS:\Courses\EE365\P3
+Ebtn_debounce_toggle
+Z1 w1634069102
+Z2 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z4 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z5 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z6 dS:\Courses\EE365\P3
+Z7 8debounce.vhd
+Z8 Fdebounce.vhd
+l0
+L32
+VZiiT=WXWBKTHblC_NGfY51
+Z9 OV;C;10.1d;51
+32
+Z10 !s108 1634143896.855000
+Z11 !s90 -reportprogress|300|debounce.vhd|encoder.vhd|encoder_sm.vhd|top_level.vhd|univ_bin_counter.vhd|
+Z12 !s107 univ_bin_counter.vhd|top_level.vhd|encoder_sm.vhd|encoder.vhd|debounce.vhd|
+o-O0
+Z13 tExplicit 1
+!s100 ^lEN`GDF;RR:KTFlBaZA01
+!i10b 1
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 19 btn_debounce_toggle 0 22 ZiiT=WXWBKTHblC_NGfY51
+l51
+L41
+V>Yb;84TQ8i;PlzKa84RCW3
+!s100 KZBS?^[KXjC0c3F8OiG971
+R9
+32
+R10
+R11
+R12
+o-O0
+R13
+!i10b 1
+Eencoder
+Z14 w1634142196
+R4
+R5
+R6
+Z15 8encoder.vhd
+Z16 Fencoder.vhd
+l0
+L4
+VcH0Y`QG<=`UcECNGRbZF]2
+R9
+32
+R10
+R11
+R12
+o-O0
+R13
+!s100 oPWnNaL>kRdZY4TeX5M^N2
+!i10b 1
+Astructural
+R4
+R5
+DEx4 work 7 encoder 0 22 cH0Y`QG<=`UcECNGRbZF]2
+l46
+L14
+ViUMhd]^F5RMT^RHi[_V?;2
+!s100 7Cd39L2^@C<JkMa]nbTNL1
+R9
+32
+R10
+R11
+R12
+o-O0
+R13
+!i10b 1
+Eencoder_sm
+Z17 w1634070621
+R4
+R5
+R6
+Z18 8encoder_sm.vhd
+Z19 Fencoder_sm.vhd
+l0
+L21
+VcMZMi`Q8gk9<DR:UJ[cZ73
+R9
+32
+R10
+R11
+R12
+o-O0
+R13
+!s100 >RZadnmJU_h=oB;5V=gWN2
+!i10b 1
+Abehavior
+R4
+R5
+DEx4 work 10 encoder_sm 0 22 cMZMi`Q8gk9<DR:UJ[cZ73
+l36
+L32
+Vb2a]5ShB:K7;E9^YGF`aG2
+!s100 k;7?iKRAX9fHEjZB[>A?O3
+R9
+32
+R10
+R11
+R12
+o-O0
+R13
+!i10b 1
+Eencoder_tb
+Z20 w1634143884
+R4
+R5
+R6
+Z21 8encoder_tb.vht
+Z22 Fencoder_tb.vht
+l0
+L4
+V09cTH0ZMCS?m]UobL4;H52
+!s100 X`BYDEiNWIeEINgEQSg9C1
+R9
+32
+!i10b 1
+Z23 !s108 1634143897.321000
+Z24 !s90 -reportprogress|300|encoder_tb.vht|
+Z25 !s107 encoder_tb.vht|
+o-O0
+R13
+Atb
+Z26 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z27 DEx4 work 9 top_level 0 22 P[4ENddKbf?]?n1nTO^h^2
+R4
+R5
+Z28 DEx4 work 10 encoder_tb 0 22 09cTH0ZMCS?m]UobL4;H52
+l19
+L7
+V0>8^FjR1WmHo:IKnCoUjL1
+!s100 T;kNOkN8b1F7zYPACU@YH0
+R9
+32
+!i10b 1
+R23
+R24
+R25
+o-O0
+R13
+Etop_level
+Z29 w1634143810
+R26
+R4
+R5
+R6
+Z30 8top_level.vhd
+Z31 Ftop_level.vhd
+l0
+L5
+VP[4ENddKbf?]?n1nTO^h^2
+R9
+32
+R10
+R11
+R12
+o-O0
+R13
+!s100 59c64ECVV_1U4Hf^ARRA]3
+!i10b 1
+Astructural
+R26
+R4
+R5
+R27
+l70
+L22
+V24V_ccJ^FZc2CV8fVQDFA2
+!s100 EYONZjCWiYKK@b1TnB4VH3
+R9
+32
+R10
+R11
+R12
+o-O0
+R13
+!i10b 1
+Euniv_bin_counter
+Z32 w1634069858
+R26
+R4
+R5
+R6
+Z33 8univ_bin_counter.vhd
+Z34 Funiv_bin_counter.vhd
+l0
+L9
+VePX?10[YB<azF8LXECIF22
+R9
+32
+R10
+R11
+R12
+o-O0
+R13
+!s100 cHQ3L1]c^Ul0iL@TO?@T83
+!i10b 1
+Aarch
+R26
+R4
+R5
+DEx4 work 16 univ_bin_counter 0 22 ePX?10[YB<azF8LXECIF22
+l24
+L21
+Vcgk@^WiT^zYW6A29:GVzg2
+!s100 >WGSH4?fWCGME0P6jj5c63
+R9
+32
+R10
+R11
+R12
+o-O0
+R13
+!i10b 1
